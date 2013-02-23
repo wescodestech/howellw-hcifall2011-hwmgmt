@@ -1,0 +1,21 @@
+Code to be added to windowTest 
+
+
+
+
+                /*
+                 * Popup Menus
+                 */
+                final PopupMenuClass classPopupMenu = new PopupMenuClass();
+                classList.add(classPopupMenu.getMenu());
+                classList.addMouseListener(classPopupMenu);
+                sch1.add(classPopupMenu.getMenu());
+                sch1.addMouseListener(classPopupMenu);
+                
+                final PopupMenuInfo infoPopupMenu = new PopupMenuInfo();
+                lblNewLabel_1.add(infoPopupMenu.getMenu());
+                lblNewLabel_1.addMouseListener(infoPopupMenu);
+                
+                final PopupMenuAssignment assignmentPopupMenu = new PopupMenuAssignment();
+                lblNewLabel.add(assignmentPopupMenu.getMenu());
+                lblNewLabel.addMouseListener(assignmentPopupMenu);
